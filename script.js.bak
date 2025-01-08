@@ -74,11 +74,11 @@ document.addEventListener("DOMContentLoaded", () => {
                             img.dataset.description = "Ilustraciones inspiradas en las placas Petri, diseñadas en Blender, evocando patrones orgánicos y científicos.";
                             break;
                             case 15:
-                              img.dataset.title = "PREHIS";
+                              img.dataset.title = "PREHISTORICOS";
                               img.dataset.description = "Visuales para el concierto de la banda Prehistóricos, realizado en Santiago, Chile.";
                               break;
                               case 16:
-                              img.dataset.title = "PREHIS";
+                              img.dataset.title = "PREHISTORICOS";
                               img.dataset.description = "Creación de visuales para el concierto de celebración del décimo aniversario de la banda Prehistóricos, realizado en Santiago, Chile. Los gráficos combinaron técnicas avanzadas de After Effects y Blender, logrando un resultado inmersivo y emocional que complementó la atmósfera del evento.";
                               break;
                               case 17:
