@@ -114,6 +114,14 @@ html, body {
   flex: 1;
 }
 
+#modal-title {
+  font-size: 1.5rem; /* Tamaño relativo al contenedor */
+  font-weight: bold; /* Opcional: ajusta el peso de la fuente */
+  margin: 0; /* Elimina márgenes predeterminados si es necesario */
+  word-wrap: break-word; /* Asegura que el texto no desborde */
+  text-align: center; /* Opcional: centra el texto */
+}
+
 .close-modal {
   position: absolute;
   top: 20px;
@@ -142,11 +150,4 @@ footer {
 .footer-contact a {
   color: white;
   text-decoration: none;
-}
-#modal-title {
-  font-size: clamp(1rem, 2vw, 2rem); /* Escala entre 1rem y 2rem basado en el ancho de la ventana */
-  font-weight: bold; /* Destaca el título */
-  text-align: center; /* Centra el texto en el contenedor */
-  margin-bottom: 10px; /* Espaciado debajo del título */
-  word-wrap: break-word; /* Evita desbordes de texto */
 }
